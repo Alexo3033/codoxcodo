@@ -1,0 +1,103 @@
+*   {
+       font-family:'Parisienne', sans-serif;
+    }
+header
+    {
+    	font-family:'Parisienne', sans-serif;
+
+        padding-left: 4em;
+        padding-right: 4em;
+    }
+
+header img 
+    {
+       border-radius: 50%;
+       width: 120px;
+       height: 120px;
+    }
+body   
+    {
+	   background-size: 100%;
+	   background-image: url(fondo.codoacodo.jpg);<!-- FONDO --> 
+    }
+.producto1 img
+    {
+       width: 400px;
+       height: 250px;
+    }
+.conteiner
+    {
+       width: 90%; 
+       display: inline-grid;
+       grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+       grid-column-gap: 20px;
+       padding-left: 6em;
+    }   
+.box{
+    height: 320px;
+    width: 300px;
+    align-content: center;
+    color:  darkblue;
+    border: 2px darkblue; 
+    position: relative;
+    padding-left: 2em;
+    padding-right: 15px;
+
+}
+h2{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin: 0;
+    position: absolute;
+    top:  50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.box img
+    {
+        width: 250px;
+        height: 250px;
+        align-content: center;
+        align-items: center;
+        margin: auto;
+  }
+.articulo1
+{
+       width: 200;
+       height: 300;
+       padding-right: 1em;
+       padding-left: 8em;
+       align-content: center;
+       padding-left: 1em;
+
+}
+#carouselExampleControls
+{
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    padding-left: 4em;
+}
+.articulo2  
+{
+    width: 1200px;
+    height: 300px;
+    display: flex;
+
+}
+h4
+{
+    color: darkblue;<!-- *Stilizacion de conteiner para poder lograr utlizar el padding en las boxes, *.box para poder ver devuelta las cajas y sus parametros y diversas
+    dimenciones contenedoras activar el border 2px solid darkblue, *modificacion de carrusel con un tamaño de los 3 de width 400px, height 400px. *articulo2 jugar con las dimenciones
+    internas que contienen todo con un ancho de 1200px y un alto de 300 px y un flex para que todo pueda ir en fila y no uno arriba del otro.  
+    *border radius y dimenciones para que las cajas queden redondas y de poco tamaño para lograr la ilusion deseada *# selector, en el carrusel. -->
+}
+.articulotexto
+{   
+    padding-top: 3em;
+    padding-left: 15em;
+}
+
+
+
+
